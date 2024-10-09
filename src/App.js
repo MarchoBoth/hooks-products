@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import ProductList from "./ProductList";
-import Categories from "./Categories";
-import items from "./data";
+import React, { useState } from 'react';
+import ProductList from './ProductList';
+import Categories from './Categories';
+import items from './data';
 
 //Get exist categories
 const existCategories = [];
@@ -32,6 +32,7 @@ function App() {
       </section>
       {/* fill with state name*/}
       <ProductList items={[]} />
+      <p>test</p>
     </main>
   );
 }
